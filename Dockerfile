@@ -53,5 +53,3 @@ wget
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/screenrc /root/.screenrc
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/gitconfig /root/.gitconfig
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/vimrc /root/.vimrc
-
-CMD ["/bin/zsh"]
