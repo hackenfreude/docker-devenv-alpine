@@ -48,12 +48,7 @@ git \
 jq \
 screen \
 tree \
-wget \
-zsh
-
-ENV SHELL /bin/zsh
-RUN git clone git://github.com/robbyrussell/oh-my-zsh.git /root/.oh-my-zsh
-ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/zshrc /root/.zshrc
+wget
 
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/screenrc /root/.screenrc
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/gitconfig /root/.gitconfig
