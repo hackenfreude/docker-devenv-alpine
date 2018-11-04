@@ -1,4 +1,4 @@
-ARG ALPINE_VERSION=3.6
+ARG ALPINE_VERSION=3.8
 
 FROM library/alpine:${ALPINE_VERSION} as builder
 
@@ -53,3 +53,4 @@ wget
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/screenrc /root/.screenrc
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/gitconfig /root/.gitconfig
 ADD https://raw.githubusercontent.com/hackenfreude/dotfiles/master/vimrc /root/.vimrc
+
