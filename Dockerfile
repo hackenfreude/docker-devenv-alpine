@@ -2,7 +2,7 @@ ARG ALPINE_VERSION=3.8
 
 FROM library/alpine:${ALPINE_VERSION} as builder
 
-ARG VIM_VERSION=v8.0.1322
+ARG VIM_VERSION=v8.1.0509
 RUN apk update
 RUN apk add git
 RUN git clone https://github.com/vim/vim
